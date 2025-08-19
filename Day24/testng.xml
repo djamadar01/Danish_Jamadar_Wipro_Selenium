@@ -1,0 +1,20 @@
+<suite name="ParameterSuite">
+    <test name="validtest">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="admin@123"/>
+
+        <classes>
+            <class name="TestNG_package.plogintest"/>
+        </classes>
+    </test>
+    <test name="invalidtest">
+
+        <parameter name="username" value="5757452"/>
+        <parameter name="password" value="422242"/>
+        <classes>
+            <class name="TestNG_package.plogintest"/>
+        </classes>
+    </test>
+    
+</suite>
+
